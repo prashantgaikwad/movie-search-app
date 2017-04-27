@@ -1,0 +1,36 @@
+{
+  "name": "movie-search-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "react-scripts": "0.9.5",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "flexboxgrid": "^6.3.1",
+    "material-ui": "^0.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
