@@ -15,16 +15,16 @@ const MovieDetails = (props) => {
     return (<CircularProgress size={60} thickness={7} />);
   }
   return (
-    <Paper style={{ backgroundColor: 'rgba(250, 250, 250, 0.8)' }} >
+    <Paper zDepth={5} style={{ backgroundColor: 'rgba(50, 50, 50, 0.7)' }} >
       <div className="row center-xs start-md">
         <div className="col-lg-5 col-md-12 center-md start-lg" >
           <img src={poster} style={{ height: '100%' }} alt="poster" />
         </div>
         <div className="col-lg-6 col-md-12">
-          <div className="center-xs" >
+          <div className="center-xs" style={{ color: 'white' }} >
             <h2>{movie.Title}</h2>
           </div>
-          <div className="center-md start-lg" style={{ padding: 16 }}>
+          <div className="center-md start-lg" style={{ padding: 16, color: 'lightgrey' }}>
             <div><b>Director:</b> {movie.Director}</div>
             <br />
             <div><b>Actors:</b> {movie.Actors}</div>
